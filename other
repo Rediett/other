@@ -1,0 +1,10 @@
+def war(fw,sw):
+    if sorted(fw.lower()) == sorted(sw.lower()):
+        return True
+    else:
+        return False
+print(war("geeksforgeeks", "forgeeksgeeks"))
+
+def ff(s):
+    return (".").join(s.split(".")[::-1])
+print(ff("i.go.tun.saf.asd"))
